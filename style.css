@@ -1,0 +1,156 @@
+body{
+    font-family: roboto, sans-serif;
+    display: flex;
+    margin: 0;
+    padding:0;
+    flex-direction:column;
+}
+.header, .footer, .awesome{
+    background-color: #1f2937;
+}
+.header, .links, .awesome{
+    display: flex;
+}
+
+.header,
+.awesome,
+.randoInformation,
+.quote,
+.footer {
+    padding: 0px 100px;
+}
+.header{
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    gap: 16px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.awesome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.awesomeTitle{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.awesomeWords{
+    width: 300px;
+}
+
+.awesome img{
+    width:300px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.randoInformation{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.infoTitle{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+    text-align: center;
+    align-items: center;
+}
+
+.infoImages{
+    display: flex;
+    justify-content: space-between;
+}
+.imageWrapper{
+    text-align: center;
+}
+.imageWrapper img{
+    width: 200px;
+    height: auto;
+}
+.imgTxt{
+    color:#1f2937;
+    font-size: 18px;
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.quoteText{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoteAuthor{
+    font-weight: bold;
+    text-align: end;
+    font-size: 18px;
+}
+.callToAction{
+    display: flex;
+    margin: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.callTitle{
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.callSubtext{
+    color: #f9faf8;
+    
+}
+.a, .awesomeWords, button{
+    color: #e5e7eb;
+    font-size: 18px;;
+}
+
+button, .callToAction{
+    background-color: #3882f6;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+
+}
+.callToAction button{
+    border: 2px solid #e5e7eb;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #f9faf8;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+
+}
